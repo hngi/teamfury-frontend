@@ -16,7 +16,6 @@ body {
 #contactusstyled {
   font-family: Berkshire Swash;
   font-weight: bold;
-
 }
 
 .form-section {
@@ -29,6 +28,11 @@ body {
   font-family: Merriweather Sans;
 }
 
+.form-control {
+  border-radius: 0px;
+}
+
+
 .Btn-submit {
   padding-top: 40px;
 }
@@ -40,4 +44,12 @@ body {
 .btn-primary:focus {
   background-color: rgba(91, 14, 34, 0.85);
   border-color: rgba(91, 14, 34, 0.85);
+  border-radius: 0;
+  box-shadow: none;
+  width: 250px;
+  height: 70px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
 }
