@@ -1,0 +1,81 @@
+#hero-1-info h4{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1.2rem;
+    width: 100%;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.2rem;
+}
+#hero-2{
+    height: 55vh;
+    background-color: rgba(31, 35, 43, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 3%;
+}
+.contact-info{
+    width: 450px;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+.contact-info:nth-child(2){
+    border-left: 1px solid #828282;
+    border-right: 1px solid #828282;
+}
+.contact-info .icon{
+    width: 40px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.contact-info h4{
+    margin-bottom: 1rem;
+}
+.contact-info p:first-of-type{
+    margin-bottom: 1rem;
+}
+#map{
+    position: relative;
+    width: 100%;
+}
+#directions{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    background-color: #fff;
+    padding: 1rem;
+    font-size: 12px;
+}
+#directions h4{
+    font-size: 14px;
+    margin-bottom: .5rem;
+}
+#directions p{
+    margin-bottom: .5rem;
+}
+#directions a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px){
+    #hero-2{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 3%;
+}
+.contact-info:nth-child(2){
+    border:none;
+}
+.contact-info{
+    width: 100%;
+    
+}
+}
