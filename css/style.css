@@ -1,0 +1,184 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.header {
+	background-image: url(https://res.cloudinary.com/chimeziesolomon/image/upload/v1591615671/Rectangle_2_jnfh3y.png);
+	position: absolute;
+	width: 1350px;
+	height: 1024px;
+	left: 0px;
+	top: 0px;
+}
+.logo {
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	left: 91px;
+	top: 70px;
+	font-family: Anurati;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 60px;
+	border: 5px solid rgb(221, 165, 11);
+}
+.topnav {
+	overflow: hidden;
+	padding-top: 70px;
+}
+.topnav a {
+	float: right;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 30px;
+	text-decoration: none;
+	font-size: 17px;
+	top: 77px;
+}
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+.topnav a.active {
+	color: yellow;
+}
+h1 {
+	position: absolute;
+	text-align: center;
+	color: white;
+	left: 620px;
+	top: 420px;
+}
+.main {
+	position: relative;
+	display: grid;
+	grid-row-gap: 0px;
+	grid-template-columns: auto auto auto;
+	background-color: blanchedalmond;
+	padding: 40px 0px 0px 40px;
+	top: 700px;
+}
+.grid-item {
+	width: 60%;
+	height: 300px;
+	background-color: rgba(236, 231, 231, 0.8);
+	border: 0px solid rgba(236, 231, 231, 0.8);
+	padding: 10px;
+	font-size: 30px;
+	text-align: center;
+}
+#swimming {
+	background: url(https://res.cloudinary.com/chimeziesolomon/image/upload/v1591615655/Rectangle_44_swgfkp.png)
+		no-repeat center;
+	background-size: cover;
+}
+#gym {
+	background: url(https://res.cloudinary.com/chimeziesolomon/image/upload/v1591615630/Rectangle_46_jcfev1.png)
+	no-repeat center;
+	background-size: cover;
+}
+#bar {
+	background: url(https://res.cloudinary.com/chimeziesolomon/image/upload/v1591615612/Rectangle_48_hl9e2f.png)
+	no-repeat center;
+	background-size: cover;
+}
+#spa {
+	background: url(https://res.cloudinary.com/chimeziesolomon/image/upload/v1591615582/Rectangle_45_1_t0ubdg.png)
+	no-repeat center;
+	background-size: cover;
+}
+#banquet {
+	background: url(https://res.cloudinary.com/chimeziesolomon/image/upload/v1591615559/Rectangle_47_q9htms.png)
+	no-repeat center;
+	background-size: cover;
+}
+#parking {
+	background: url(https://res.cloudinary.com/chimeziesolomon/image/upload/v1591615529/Rectangle_49_wzmj46.png)
+	no-repeat center;
+	background-size: cover;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+}
+.footer {
+	position: absolute;
+	background: url(https://res.cloudinary.com/chimeziesolomon/image/upload/v1591627118/Rectangle_66_hylxtg.png);
+	width: 1350px;
+	height: 300px;
+	top: 700px;
+}
+.seal a {
+	position: absolute;
+	text-decoration: none;
+	color: white;
+	margin-left: 40px;
+	margin-top: 40px;
+	font-size: 18px;
+	font-family: Gotham;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 23px;
+}
+ul.second a {
+	position: relative;
+	left: 130px;
+	bottom: 30px;
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: Gotham;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 23px;
+}
+.checkin {
+	left: 1070px;
+	position: absolute;
+	top: 700px;
+}
+.icons1 {
+	width: 17px;
+	height: 17px;
+	background-color: yellow;
+}
+h6 {
+	position: relative;
+	right: -30px;
+	bottom: 20px;
+}
+.below {
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	right: 640px;
+	top: 890px;
+	font-family: Anurati;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 60px;
+	border: 5px solid rgb(221, 165, 11);
+}
+.final {
+	position: relative;
+	left: 500px;
+	top: 310px;
+}
+.news {
+	position: absolute;
+	left: 470px;
+	top: 700px;
+	text-align: center;
+	border-radius: 20%;
+}
