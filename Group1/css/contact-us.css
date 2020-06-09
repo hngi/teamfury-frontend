@@ -1,9 +1,68 @@
-#hero-1-info h4{
-    border-bottom: 1px solid #fff;
-    padding-bottom: 1.2rem;
-    width: 100%;
-    letter-spacing: 0.1em;
-    margin-bottom: 1.2rem;
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#contact-page{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header{
+    height: 600px;
+    width:100%;
+    position: relative;
+    height: 100vh;
+}
+
+.bg-image, .overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.bg-image{
+    background: url("../images/contact.jpg") center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+}
+
+.header-content{
+    position: relative;
+    z-index: 3;
+    color: white;
+    margin: auto;
+    text-align: center;
+    line-height: 50px;
+    top: 47%;
+    width: 33%;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-size: 24px;
+    letter-spacing: 0.2rem;
+}
+
+@media(max-width: 850px){
+    .header-content{
+        font-size: 16px;
+        top: 35%;
+        width: 60%;
+    }
+
+    .bg-image{
+        background-size: fill;
+    }
+
+    .header{
+        height: 250px;
+    }
 }
 #hero-2{
     height: 55vh;
