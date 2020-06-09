@@ -52,3 +52,11 @@ body {
   font-weight: bold;
   font-size: 24px;
 }
+
+.maps{
+  padding-top: 50px;
+}
+iframe{
+  height: 600px;
+  border: 0;
+}
