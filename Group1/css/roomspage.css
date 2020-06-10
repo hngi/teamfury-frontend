@@ -60,31 +60,29 @@
     align-items: center;
 }
 @media screen and (max-width:576px){
-    #header{
-        height:70vh !important;
+    .header{
+        height:100vh ;
     }
     .header-div,h4{
         font-size: 15px;
         
     }
     hr{
-        width: 270px !important;
+        width: 200px !important;
     }
 
     .bg-image{
         background-size: fill;
     }
 
-    .header{
-        height: 250px;
-    }
+    
 }
 
 
 
 
 hr{
-    width:500px !important;
+    width:500px ;
     border:1px solid #ffffff !important;
     font-weight: 600px;
     
@@ -167,7 +165,7 @@ hr{
     align-items: flex-end;
     vertical-align: baseline;
     position: absolute;
-    top: 85%;
+    top: 80%;
     width: 90%;
 }
 .line{

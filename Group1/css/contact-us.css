@@ -98,6 +98,7 @@
 #map{
     position: relative;
     width: 100%;
+    margin-bottom: -10gitpx;
 }
 #directions{
     position: absolute;
