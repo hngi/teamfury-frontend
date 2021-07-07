@@ -7,21 +7,23 @@ The main frontend repository. This is the main entry point to the frontend libra
 
 ## Getting Started
 
-The Frontend team has been sectioned into subgroups, with each subgroup expected to work on a design. As this is would be a group project, i suggest we check the guide on [GitHub projects](). Each subgroup's lead are:
+The Frontend team has been sectioned into subgroups, with each subgroup expected to work on a design. As this is would be a group project, I suggest we check the guide on [GitHub projects](). Each subgroup's lead are:
 
-- slack - @chimdia | github - @chimidiya1
-- slack - @dpkreativ | github - @dpkreativ
-- slack - @Gordie | github - @Xodtuza
-- slack - @cj1996 | github - @chiaka1996
-- slack - @victorAnumudu | github - @victorAnumudu
+- Group 1 - @chimdia | github - @chimidiya1
+- Group 3 - @dpkreativ | github - @dpkreativ
+- Group 2 - @Gordie | github - @Xodtuza
+- Group 5 - @cj1996 | github - @chiaka1996
+- Group 4 - @victorAnumudu | github - @victorAnumudu
+
+All team leads must update their progress on their README on their different branches.
 
 If you don't have a team already, i suggest you reach out any of them to show your interest in becoming a member of that team. The team leads are to coordinate the activities of the group, so as to come out with a good implementation of the designs.they are to ensure:
 
-- consistency of thier work with the design template
-- mobile readiness
-- cross browser compatibility
+- Consistency of thier work with the design template
+- Mobile readiness
+- Cross Browser Compatibility
 - Ease of Customizablility
-- use of high quality assets
+- Use of high quality assets
 
 
 ## Contributing

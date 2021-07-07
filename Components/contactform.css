@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+.Contact-header {
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+}
+#contactusstyled {
+  font-family: Berkshire Swash;
+  font-weight: bold;
+}
+
+.form-section {
+  padding-top: 65px;
+}
+
+.contact-text {
+  color: rgba(91, 14, 34, 0.85);
+  font-weight: bold;
+  font-family: Merriweather Sans;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+.Btn-submit {
+  padding-top: 40px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: rgba(91, 14, 34, 0.85);
+  border-color: rgba(91, 14, 34, 0.85);
+  border-radius: 0;
+  box-shadow: none;
+  width: 250px;
+  height: 70px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.maps{
+  padding-top: 50px;
+}
+iframe{
+  height: 600px;
+  border: 0;
+}
